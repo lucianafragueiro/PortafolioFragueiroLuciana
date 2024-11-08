@@ -1,12 +1,18 @@
 <script setup>
+import icono1 from '../assets/favicon.ico';
+import icono2 from '../assets/favicon.ico';
+import icono3 from '../assets/favicon.ico';
+import icono4 from '../assets/favicon.ico';
+
+
 import {ref} from 'vue';
 const titulo='Asesora de ventas y caja';
 const fecha='2022 - Actualidad';
 const experiencias = ref([
-    {id:1, src:'src/assets/favicon.ico', parrafo: 'Facturación y manejo de cuentas corrientes.'},
-    {id:2, src:'src/assets/favicon.ico', parrafo: 'Gestión de ventas mayoristas y minoristas.'},
-    {id:3, src:'src/assets/favicon.ico', parrafo: 'Arqueo, manejo y cierre de caja diario.'},
-    {id:4, src:'src/assets/favicon.ico', parrafo: 'Etiquetado, reposición y control de stock.'}
+    {id:1, src: icono1, parrafo: 'Facturación y manejo de cuentas corrientes.'},
+    {id:2, src: icono2, parrafo: 'Gestión de ventas mayoristas y minoristas.'},
+    {id:3, src: icono3, parrafo: 'Arqueo, manejo y cierre de caja diario.'},
+    {id:4, src: icono4, parrafo: 'Etiquetado, reposición y control de stock.'}
     
 ]);
 </script>

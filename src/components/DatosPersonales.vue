@@ -1,12 +1,15 @@
 <script setup>
+import linkedin from '/src/assets/linkedin_icon.svg';
+import github from '/src/assets/github_icon.svg';
+import instagram from '/src/assets/instagram_icon.svg';
 const title = "Luciana Fragueiro";
 const descripcion = "Estudiante de Tecnicatura Universitaria en Programación - UTN";
 const residencia = "Rosario, Santa Fe, Argentina";
 const presentacion = "Me presento como una persona ordenada, empatica y positiva. Ademas, cuento con capacidad para el trabajo en equipo, la comunicación, el aprendizaje continuo y la gestión de los tiempos. Actualmente me encuentro en búsqueda de un nuevo desafío laboral relacionado a mi formación académica donde pueda aplicar mis conocimientos y poder crecer tanto a nivel personal, como profesional. Ofrezco amplia capacidad de aprendizaje, compromiso y disponibilidad horaria.";
 const redesSociales = [
-    { id: 1, name: "Linkedin", src: '/src/assets/linkedin_icon.svg', url:'https://www.linkedin.com/in/luciana-fragueiro-9492361a8/?originalSubdomain=ar'},
-    { id: 2, name: "GitHub", src:'/src/assets/github_icon.svg', url:'https://github.com/lucianafragueiro'},
-    { id: 3, name: "Instagram",src: 'src/assets/instagram_icon.svg', url:'https://www.instagram.com/lulafragueiro/'}
+    { id: 1, name: "Linkedin", src: linkedin, url:'https://www.linkedin.com/in/luciana-fragueiro-9492361a8/?originalSubdomain=ar'},
+    { id: 2, name: "GitHub", src: github, url:'https://github.com/lucianafragueiro'},
+    { id: 3, name: "Instagram",src: instagram, url:'https://www.instagram.com/lulafragueiro/'}
 ];
 const telefono = '+54 3413440620';
 </script>

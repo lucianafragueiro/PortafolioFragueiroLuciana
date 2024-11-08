@@ -1,24 +1,32 @@
 <script setup>
+import img1 from '/src/components/icons/javascript.svg';
+import img2 from '/src/components/icons/java.svg';
+import img3 from '/src/components/icons/python.svg';
+import img4 from '/src/components/icons/vsc.svg';
+import img5 from '/src/components/icons/git.svg';
+import img6 from '/src/components/icons/office.svg';
+import img7 from '/src/components/icons/arg.svg';
+import img8 from '/src/components/icons/eeuu.svg';
 import {ref} from 'vue';
 const habilidades = ref([
     {
         id: 1, nombre: 'Lenguajes de Programación', habilidades: [
-            {id: 1, nombre: 'JavaScript', nivel:'Avanzado', icono: '/src/components/icons/javascript.svg'},
-            {id: 2, nombre: 'Java', nivel:'Intermedio', icono: '/src/components/icons/java.svg'},
-            {id: 3, nombre: 'Python', nivel:'Avanzado', icono: '/src/components/icons/python.svg'}
+            {id: 1, nombre: 'JavaScript', nivel:'Avanzado', icono: img1},
+            {id: 2, nombre: 'Java', nivel:'Intermedio', icono: img2},
+            {id: 3, nombre: 'Python', nivel:'Avanzado', icono: img3}
         ]
     },
     {
         id: 2, nombre: 'Herramientas y Software', habilidades: [
-            {id: 1, nombre: 'Visual Studio Code', nivel:'Avanzado', icono: '/src/components/icons/vsc.svg'},
-            {id: 2, nombre: 'Git', nivel:'Avanzado', icono: '/src/components/icons/git.svg'},
-            {id: 3, nombre: 'Paquete Office', nivel:'Avanzado', icono: '/src/components/icons/office.svg'}
+            {id: 1, nombre: 'Visual Studio Code', nivel:'Avanzado', icono: img4},
+            {id: 2, nombre: 'Git', nivel:'Avanzado', icono: img5},
+            {id: 3, nombre: 'Paquete Office', nivel:'Avanzado', icono: img6}
     ]
     },
     {
         id: 3, nombre: 'Idiomas', habilidades: [
-            {id: 1, nombre: 'Español', nivel:'Avanzado', icono: '/src/components/icons/arg.svg'},
-            {id: 2, nombre: 'Ingles', nivel:'Basico', icono: '/src/components/icons/eeuu.svg'}
+            {id: 1, nombre: 'Español', nivel:'Avanzado', icono: img7},
+            {id: 2, nombre: 'Ingles', nivel:'Basico', icono: img8}
     ]
     }
 
